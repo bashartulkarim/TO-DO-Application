@@ -1,0 +1,12 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: TO DO Application
+  host: iphonetodo
+  disk_quota: 1024M
+  services:
+  - TO DO Application-AdvancedMobileAccess
+  - TO DO Application-imfpush
+  - TO DO Application-cloudantNoSQLDB
